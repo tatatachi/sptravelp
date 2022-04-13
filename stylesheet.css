@@ -1,3 +1,7 @@
+body{
+    font-family: 'Roboto';
+}
+
 .top-wrapper{
     background-image: url(D99C6188-3790-4DAE-AD85-61818B007AA1_1_105_c.jpeg);
     background-size: cover;
