@@ -1,5 +1,11 @@
 body{
     font-family: 'Roboto';
+    
+}
+html, body,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
 }
 
 .top-wrapper{
@@ -13,8 +19,8 @@ body{
 
 }
 
-.top-wrapper{
-    position: bottom 0;
+.container{
+    padding: 10px;
 }
 
 .container h1 span{
@@ -24,11 +30,19 @@ body{
     padding: 5px;
 }
 
+.container h1{
+    padding: 5px;
+}
+
 .container h3 span{
     font-size: 18px;
     background-color: white;
     opacity: 0.8;
     padding: 5px;
+}
+
+.container h3{
+    padding-bottom: 30px;
 }
 
 .btn-entry2{
@@ -172,6 +186,7 @@ body{
 
 .concept{
     padding-top: 10px;
+    padding: 8px;
 }
 
 .concept p {
@@ -184,7 +199,7 @@ body{
 }
 
 .top-concept{
-    font-size: 25px;
+    font-size: 15px;
     border-left: 4px solid #000;
     padding-left: 10px;
     display: block;
@@ -194,6 +209,7 @@ body{
     font-size: 27px;
     text-align: center;
     text-decoration-line: underline;
+    padding-top: 10px;
 }
 
 .concept-message{
@@ -204,15 +220,16 @@ body{
 .concept img{
     width: 250px;
     height: 155px;
-    
+    padding: 10px;
 }
 
 .about-us{
     padding-top: 50px;
+    padding: 8px;
 }
 
 .top-about-us{
-    font-size: 25px;
+    font-size: 15px;
     border-left: 4px solid #000;
     padding-left: 10px;
     display: block;
@@ -222,6 +239,8 @@ body{
     font-size: 23px;
     text-align: center;
     text-decoration-line: underline;
+    padding-top: 8px;
+    padding-bottom: 10px;
 }
 
 .topic p{
@@ -255,10 +274,25 @@ body{
     text-align: center;
 }
 
+.results h3{
+    padding: 5px 0;
+}
+
+.coment1{
+    padding: 5px 0;
+}
 
 .person2{
     display:inline-block;
     padding: 0 10px 10px 10px;
+}
+
+.book{
+    padding: 5px 0;
+}
+
+.coment2{
+    padding: 5px 0;
 }
 
 .btn-entry1{
@@ -277,10 +311,11 @@ body{
 
 .content{
     padding-top: 50px;
+    padding: 8px;
 }
 
 .top-content{
-    font-size: 25px;
+    font-size: 15px;
     border-left: 4px solid #000;
     padding-left: 10px;
     display: block;
@@ -289,6 +324,10 @@ body{
 .event-content h3{
     text-align: center;
     font-size: 25px;
+}
+
+.event-content li{
+    padding: 5px;
 }
 
 li{
@@ -305,7 +344,7 @@ li{
 }
 
 .top-schedule{
-    font-size: 25px;
+    font-size: 15px;
     border-left: 4px solid #000;
     padding-left: 10px;
     display: block;
@@ -314,6 +353,7 @@ li{
 .schedule{
     padding-top: 50px;
     padding-bottom: 50px;
+    padding: 8px;
 
 }
 
@@ -321,7 +361,8 @@ li{
 
 .schedule-title{
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
+    padding: 10px;
 }
 
 
@@ -350,6 +391,74 @@ li{
     color: white;
     border-radius:4px;
 }
+
+.c-form {
+	max-width: 600px;
+	margin: 0 auto;
+}
+.c-form__item {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-bottom: 20px;
+}
+.c-form__label,
+.c-form__input {
+	padding: 10px;
+}
+.c-form__label {
+	width: 90%;
+}
+.c-form__input {
+	width: 90%;
+	font-size: 16px;
+	border: solid 1px #333;
+	border-radius: 4px;
+}
+.c-form__input:focus-visible {
+	outline: red auto 1px;
+}
+.c-form__required {
+	color: #fff;
+	background-color: red;
+	border-radius: 4px;
+	padding: 5px 5px;
+	margin: 0 0 0 18px;
+}
+textarea.c-form__input {
+	height: 160px;
+}
+.c-form__submit {
+	text-align: center;
+}
+.c-form__submit button {
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	background-color: orange;
+	border: solid 1px orange;
+	border-radius: 4px;
+	padding: 5px 32px;
+	transition: 0.4s;
+	cursor: pointer;
+}
+.c-form__submit button:hover {
+	color: orange;
+	background-color: transparent;
+}
+
+@media (min-width: 640px) {
+	.c-form__item {
+		flex-wrap: nowrap;
+	}
+	.c-form__label {
+		width: 40%;
+	}
+	.c-form__input {
+		width: 55%;
+	}
+}
+
 
 footer{
     padding-top: 50px;
