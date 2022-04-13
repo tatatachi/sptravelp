@@ -183,6 +183,11 @@
     text-decoration-line: underline;
 }
 
+.concept-message{
+    margin: 0 auto;
+    width: 90%;
+}
+
 .concept img{
     width: 250px;
     height: 155px;
@@ -210,6 +215,8 @@
     text-align: center;
     letter-spacing: 0.05em;
     line-height: 30px;
+    margin: 0 auto;
+    width: 90%;
 }
 
 .person-photo{
