@@ -1,0 +1,169 @@
+.top-wrapper{
+    padding: 150px 0 100px 0;
+    background-image: url(PHOTO/D99C6188-3790-4DAE-AD85-61818B007AA1_1_105_c.jpeg);
+    background-size: contain;
+    text-align: center;
+    color: orange;
+    width: 100%;
+    
+}
+
+
+
+.container h1 span{
+    font-size: 15px;
+    background-color: white;
+    opacity: 0.8;
+    padding: 20px;
+}
+
+.container h3 span{
+    font-size: 18px;
+    background-color: white;
+    opacity: 0.8;
+    padding: 20px;
+}
+
+.btn-entry2{
+    background-color:orange;
+    padding: 15px 60px;
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    border-radius:4px;
+}
+
+.btn-entry2:hover{
+    opacity:1;
+  }
+
+header{
+    height: 75px;
+}
+
+.header-logo{
+    float: left;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+ul{
+    list-style: none;
+    float: left;
+    margin: 20px;
+}
+
+.header-right{
+    float: right;
+    padding: 20px ;
+    background-color: orange;
+}
+
+.title-btn{
+    color: white;
+    border-radius:4px;
+}
+
+.btn-entry1{
+    border-radius:4px;
+}
+
+
+.top-concept{
+    font-size: 25px;
+    border-left: 4px solid #000;
+    padding-left: 10px;
+    display: block;
+    margin: 30px 150px 0 150px;
+}
+
+.concept h3{
+    font-size: 54px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.concept img{
+    width: 650px;
+    height: 355px;
+}
+
+.concept p{
+    padding: 0 200px 0 200px;
+}
+
+
+.top-about-us{
+    font-size: 45px;
+    border-left: 4px solid #000;
+    padding-left: 10px;
+    display: block;
+    margin: 30px 150px 0 150px;
+}
+
+.topic h1{
+    font-size: 54px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.topic p{
+    text-align: center;
+}
+
+.person-photo img{
+    width: 260px;
+    height: 260px;
+    padding: 20px 0 0 150px ;
+    float: left;
+}
+
+.persons{
+    padding-top: 20px;
+}
+
+.person1{
+    display:inline-block;
+    padding: 0 10px 10px 10px;
+}
+
+.name{
+    font-size: 30px;
+}
+
+.results h5{
+    font-size: 20px;
+}
+
+.coment1{
+    font-size: 20px;
+}
+
+
+.book{
+    font-size: 20px;
+}
+
+
+.person2{
+    display:inline-block;
+    padding: 0 10px 10px 10px;
+}
+
+.btn-entry1{
+    background-color:orange;
+    padding: 15px 60px;
+    font-size: 40px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+
+
+.top-content{
+    font-size: 45px;
+    border-left: 4px solid #000;
+    padding-left: 10px;
+    display: block;
+    margin: 30px 150px 0 150px;
+}
