@@ -11,7 +11,7 @@
     <header>
         <div class="header-left">
                 <div class="header-logo"></div>
-                <img src="04_text 1.png">
+                <img src="PHOTO/04_text 1.png">
                 <div class="header-list">
                     <div class="hamburger-menu">
                         <input type="checkbox" id="menu-btn-check">
@@ -20,7 +20,7 @@
         <div class="menu-content">
             <ul>
                 <li>
-                    <a href="https://forms.gle/MuVhZuJKo3mrXNBt7">申し込みフォーム</a>
+                    <a href="#entry-form">申し込みフォーム</a>
                 </li>
                 <li>
                     <a href="https://oyce.co.jp/">運営会社</a>
@@ -47,7 +47,7 @@
         <div class="container">
             <h1><span>旅を自己成長に繋げる方法とは？</span></h1>
             <h3><span>旅人の旅人による旅人のための交流会</span></h3>
-            <a href="https://forms.gle/MuVhZuJKo3mrXNBt7" class="btn-entry2">予約はこちら</a>
+            <a href="#entry-form" >予約はこちら</a>
         </div>
     </div>
 
@@ -55,7 +55,7 @@
         <a name="top-concept" class="top-concept">concept</a>
         <h3>これからの旅の話をしよう</h3>
         <div class="concept-photo">
-            <img src="dan-gribbin-fDcwEmqMJls-unsplash.jpg">
+            <img src="dan-gribbin-fDcwEmqMJls-unsplash 2.png">
         </div>
         <div class="concept-message">
             <p>「旅」を消費するだけで終わらしていませんか？
@@ -127,7 +127,7 @@
                 
                 </div>
                 <div class="btn">
-                    <a href="https://forms.gle/MuVhZuJKo3mrXNBt7" class="btn-entry1">予約はこちら</a>
+                    <a href="#entry-form">予約はこちら</a>
                 </div>
 
             </div>
@@ -149,7 +149,7 @@
             
         </div>
         <div class="event-photo">
-            <img src="ベントノール写真.jpg">
+            <img src="ベントノール写真 2.png">
 
         </div>
     </div>
@@ -178,19 +178,45 @@
         
     </div>
 
-    <div class="btn">
-        <a href="https://forms.gle/MuVhZuJKo3mrXNBt7" class="btn-entry3">予約はこちら</a>
-    </div>
+    
 
     <p style="text-align: center; margin: 40px auto">
         
     </p>
-    <form class="c-form">
+
+    <div class="form">
+        <a id="entry-form">
+            申し込みフォーム</a> 
+    </div>
+
+    
+
+    
+    <form class="c-form"
+    action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScCLQsBXYTM8ZU3g9bu2Hrz1UhocZo8KTq29TdGv_vPGZKcXQ/formResponse"
+    method="POST"
+    target="hidden_iframe"
+    onsubmit="submitted=true;"
+    class="c-form">
+
+    
+
+    <script type="text/javascript">
+        let submitted = false;
+    </script>
+    <iframe
+        name="hidden_iframe"
+        id="hidden_iframe"
+        style="display: none"
+        onload="if(submitted){window.location='https://tatatachi.github.io/thankspage/';}"
+    ></iframe>
+
         <div class="c-form__item">
             <label class="c-form__label" for="field-name"
                 >名前<span class="c-form__required">必須</span></label
             >
             <input
+                name="entry.1498135098"
                 class="c-form__input"
                 id="field-name"
                 placeholder="山田太郎"
@@ -198,23 +224,13 @@
                 required="required"
             />
         </div>
-        <div class="c-form__item">
-            <label class="c-form__label" for="field-mail"
-                >メールアドレス<span class="c-form__required">必須</span></label
-            >
-            <input
-                class="c-form__input"
-                id="field-mail"
-                placeholder="sample@gmail.com"
-                type="email"
-                required="required"
-            />
-        </div>
+        
         <div class="c-form__item">
             <label class="c-form__label" for="field-uni"
                 >大学名・学年<span class="c-form__required">必須</span></label
             >
             <input
+                name="entry.347364781"
                 class="c-form__input"
                 id="field-uni"
                 placeholder="〇〇大学〇年"
@@ -222,23 +238,43 @@
                 required="required"
             />
         </div>
+
+        <div class="c-form__item">
+            <label class="c-form__label" for="field-mail"
+                >メールアドレス<span class="c-form__required">必須</span></label
+            >
+            <input
+                name="entry.342223240"
+                class="c-form__input"
+                id="field-mail"
+                placeholder="sample@gmail.com"
+                type="email"
+                required="required"
+            />
+        </div>
+
         <div class="c-form__item">
             <label class="c-form__label" for="field-message">イベントへの意気込み</label>
             <textarea
+                name="entry.2606285"
                 class="c-form__input"
                 id="field-message"
                 placeholder="よろしくお願いします！"
             ></textarea>
         </div>
+
+        
         <div class="c-form__submit">
             <button type="submit">送信する</button>
         </div>
+
+
     </form>
 
    
     <footer>
         <div class="footer-container">
-            <img src="PHOTO/04_text 1.png">
+            <img src="04_text 1.png">
             <div class="footer-right">
                 <p>Copyright ©Glocal Creative Career All rights Reserved.</p>
             </div>
