@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6, p, div {
     padding-bottom: 30px;
 }
 
-.btn-entry2{
+.container a{
     background-color:orange;
     padding: 5px 10px;
     font-size: 20px;
@@ -295,13 +295,13 @@ h1, h2, h3, h4, h5, h6, p, div {
     padding: 5px 0;
 }
 
-.btn-entry1{
+.btn a{
     background-color:orange;
     padding: 5px 10px;
     font-size: 20px;
     display: inline-block;
     color: white;
-    
+    border-radius:4px;
 }
 
 .btn{
@@ -383,14 +383,12 @@ li{
 
 }
 
-.btn-entry3{
-    background-color:orange;
-    padding: 5px 10px;
-    font-size: 20px;
-    display: inline-block;
-    color: white;
-    border-radius:4px;
+.form{
+    text-align: center;
+    font-size: 25px;
+    padding: 50px 0;
 }
+
 
 .c-form {
 	max-width: 600px;
